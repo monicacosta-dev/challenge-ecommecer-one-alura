@@ -1,0 +1,22 @@
+:root {
+    --fundo-cards: #e5e5e5;
+    --texto-destaque: #FFFFFF;
+    --azul-destaque: #2a7ae4;
+    --preto-destaque: #2c2c2c;
+    --contato-tela-fundo: #EAF2FD;
+    --placeholder: #d4d4d4;
+    --input-bg: #efefef;
+    /*fontes*/
+    --releway: 'Releway', sans-serif;
+    --opensarce: 'Open Sans', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--releway);
+    background: var(--texto-destaque);
+    scroll-behavior: smooth;
+}

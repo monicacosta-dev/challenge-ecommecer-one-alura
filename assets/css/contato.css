@@ -1,0 +1,190 @@
+    .contato {
+        background-color: var(--contato-tela-fundo);
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    .contato__logo {
+        display: flex;
+        width: 23rem;
+        margin: 1.25rem 0 0;
+    }
+    
+    .contato__logo img {
+        width: 3.75rem;
+        height: 2.5rem;
+    }
+    
+    .contato__logo p {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: var(--azul-destaque);
+        margin-top: 0.32rem;
+        margin-left: 0.3rem;
+    }
+    
+    .contato__logo p#destaque {
+        color: var(---preto-destaque);
+    }
+    
+    .contato__uteis {
+        display: flex;
+        flex-direction: column;
+        line-height: 3.2rem;
+        width: 12.5rem;
+        margin-right: 6.25rem;
+        font-family: var(--montserrat);
+        font-size: 1rem;
+    }
+    
+    .contato__uteis a {
+        color: var(---preto-destaque);
+        font-weight: normal;
+    }
+    
+    .contato__form {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 31.25rem;
+    }
+    
+    .contato__form p {
+        font-weight: bolder;
+        font-size: 1rem;
+        font-family: var(--opensarce);
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form input {
+        height: 3.5rem;
+        position: relative;
+        border: transparent;
+        margin-bottom: 1.25rem;
+        padding: 0.5% 2.7%;
+        color: var(--texto-destaque);
+        transition: 0.5s;
+    }
+    
+    .form input:hover {
+        color: #cac8cb;
+        font-weight: bolder;
+        border-bottom: solid 2px var(--azul-destaque);
+    }
+    
+    .form label {
+        width: 100%;
+        position: absolute;
+        font-weight: bolder;
+        top: 3.7rem;
+        left: 0.57rem;
+        color: #cac8cb;
+        padding: 0.5% 2.7%;
+    }
+    
+    .contato__form textarea {
+        border: none;
+        margin-bottom: 1rem;
+        padding: 0.5% 2.7%;
+        resize: none;
+    }
+    
+    .contato__form textarea::placeholder {
+        color: #cac8cb;
+        font-weight: bolder;
+    }
+    
+    .btnEnviar {
+        width: 12rem;
+        height: 2.8rem;
+        font-size: 1rem;
+        font-family: var(--opensarce);
+        background-color: var(--azul-destaque);
+        border-radius: 2px;
+        border: 1px solid var(--azul-destaque);
+        color: var(--texto-destaque);
+        margin-top: 0.7rem;
+    }
+    
+    @media screen and (min-width: 0) {
+        .contato {
+            flex-direction: column;
+            height: 44rem;
+        }
+        .contato__logo {
+            justify-content: center;
+            margin: 1.25rem 0 0;
+        }
+        .contato__uteis {
+            line-height: 2.8rem;
+            width: 25.5rem;
+            margin-right: 8.25rem;
+            font-size: 1rem;
+            align-items: center;
+        }
+        .contato__form textarea {
+            width: 27rem;
+        }
+        .form input {
+            width: 27rem;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .contato {
+            background-color: var(--contato-tela-fundo);
+            display: flex;
+            flex-direction: row;
+            height: 22.8rem;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .contato__form textarea {
+            border: none;
+            margin-bottom: 1rem;
+            padding: 0.5% 2.7%;
+            resize: none;
+        }
+        .form input {
+            height: 3.5rem;
+            position: relative;
+            border: transparent;
+            margin-bottom: 1.25rem;
+            padding: 0.5% 2.7%;
+            color: var(--texto-destaque);
+            transition: 0.5s;
+        }
+    }
+    
+    @media screen and (min-width: 1224px) {
+        .contato {
+            background-color: var(--contato-tela-fundo);
+            display: flex;
+            flex-direction: row;
+            height: 22.8rem;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .contato__form textarea {
+            width: 26rem;
+            border: none;
+            margin-bottom: 1rem;
+            padding: 0.5% 2.7%;
+            resize: none;
+        }
+        .form input {
+            width: 26rem;
+            height: 3.5rem;
+            position: relative;
+            border: transparent;
+            margin-bottom: 1.25rem;
+            padding: 0.5% 2.7%;
+            color: var(--texto-destaque);
+            transition: 0.5s;
+        }
+    }

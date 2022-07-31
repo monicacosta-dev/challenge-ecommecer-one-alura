@@ -17,6 +17,7 @@
     <link href="./assets/css/cabecalho.css" rel="stylesheet">
     <link href="./assets/css/contato.css" rel="stylesheet">
 
+
 </head>
 
 <body>
@@ -38,16 +39,16 @@
     </header>
     <main class="container">
         <!--sessão do banner-->
-        <section class="banner">
+        <section class="banner container">
             <div class="banner__imagem">
                 <div class="banner__informacao">
                     <h1>Dezembro Promocional</h1>
                     <h4>Produtos selecionados com 33% de desconto</h4>
-                    <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Consoles</button>
+                    <button type=submit id="btnBanner" alt="Ver consoles existentes! ">Ver Consoles</button>
                 </div>
             </div>
         </section>
-        <section class="produtos_geral">
+        <section class="container__produtos_geral">
             <div class="produtos__titulo ">
                 <div class="titulo ">
                     <p>Star Wars</p>
@@ -56,68 +57,70 @@
                     <p>Ver tudo <img src="./assets/img/Vector.png" alt="Seta"> </p>
                 </div>
             </div>
-            <section class="sessao-produtos">
-                <div class=" produto__mostra">
-                    <img src="./assets/img/01.png ">
-                    <div class="produto__especificos ">
-                        <div class="produtos__polulares___cabecalho ">
-                            <h5 class="produtos__polulares___titulo ">Produto XYZ</h5>
-                            <h5 class="produtos__polulares___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnProduto " alt="Ver consoles existentes! ">Ver produto</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/02.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/03.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/04.png ">
-                    <div class="produto__especificos">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes!">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/05.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/06.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
 
+            <section class="sessao-produtos container">
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/01.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/02.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/03.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/04.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/05.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/06.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
             </section>
             <div class="produtos__titulo ">
                 <div class="titulo ">
@@ -127,69 +130,68 @@
                     <p>Ver tudo <img src="./assets/img/Vector.png " alt="Seta "> </p>
                 </div>
             </div>
-            <section class="sessao-produtos ">
+            <section class="sessao-produtos container">
                 <div class="produto__mostra ">
-                    <img src="./assets/img/07.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/08.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra">
-                    <img src="./assets/img/09.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/10.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/11.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/12.png ">
                     <div class="produto__especificos">
+                        <img src="./assets/img/07.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
                             <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
                         </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/08.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/09.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/10.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/11.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/12.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
                     </div>
                 </div>
             </section>
-
             <div class="produtos__titulo ">
                 <div class="titulo ">
                     <p>Diversos</p>
@@ -198,69 +200,69 @@
                     <p>Ver tudo <img src="./assets/img/Vector.png " alt="Seta "> </p>
                 </div>
             </div>
-            <sectio class="sessao-produtos">
+            <sectio class="sessao-produtos container" s>
                 <div class="produto__mostra ">
-                    <img src="./assets/img/13.png ">
-                    <div class="produto__especificos ">
-                        <div class="populares__card___cabecalho ">
-                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                        </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
-                    </div>
-                </div>
-                <div class="produto__mostra ">
-                    <img src="./assets/img/14.png ">
                     <div class="produto__especificos">
+                        <img src="./assets/img/13.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
                             <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
                         </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <img src="./assets/img/15.png ">
-                    <div class="produto__especificos ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/14.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
                             <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
                         </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <img src="./assets/img/16.png ">
-                    <div class="produto__especificos ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/15.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
                             <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
                         </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <img src="./assets/img/17.png ">
-                    <div class="produto__especificos ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/16.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
                             <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
                         </div>
-                        <button type=submit id="botaoConsole " alt="Ver consoles existentes! ">Ver Console</button>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <img src="./assets/img/18.png ">
-                    <div class="produto__especificos ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/17.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
                             <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
                         </div>
-                        <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos">
+                        <img src="./assets/img/18.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
                     </div>
                 </div>
         </section>
-        <section class="contato">
+        <section class="contato container">
             <div class="contato__logo"><img src="./assets/img/controleremoto.png" alt="Logo da Alura Geek" />
                 <p>Alura</p>
                 <p id="destaque">Geek</p>

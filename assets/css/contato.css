@@ -1,6 +1,7 @@
     .contato {
         background-color: var(--contato-tela-fundo);
         display: flex;
+        height: 22.8rem;
         justify-content: center;
         padding: 2rem;
     }
@@ -68,6 +69,7 @@
         margin-bottom: 1.25rem;
         padding: 0.5% 2.7%;
         color: var(--texto-destaque);
+        outline: none;
         transition: 0.5s;
     }
     
@@ -88,10 +90,12 @@
     }
     
     .contato__form textarea {
+        width: 32rem;
         border: none;
         margin-bottom: 1rem;
         padding: 0.5% 2.7%;
         resize: none;
+        outline: none;
     }
     
     .contato__form textarea::placeholder {
@@ -105,8 +109,8 @@
         font-size: 1rem;
         font-family: var(--opensarce);
         background-color: var(--azul-destaque);
-        border-radius: 2px;
         border: 1px solid var(--azul-destaque);
+        border-radius: 2px;
         color: var(--texto-destaque);
         margin-top: 0.7rem;
     }
@@ -171,20 +175,22 @@
             padding: 2rem;
         }
         .contato__form textarea {
-            width: 26rem;
+            width: 32rem;
             border: none;
             margin-bottom: 1rem;
             padding: 0.5% 2.7%;
             resize: none;
+            outline: none;
         }
         .form input {
-            width: 26rem;
+            width: 32rem;
             height: 3.5rem;
             position: relative;
             border: transparent;
             margin-bottom: 1.25rem;
             padding: 0.5% 2.7%;
             color: var(--texto-destaque);
+            outline: none;
             transition: 0.5s;
         }
     }

@@ -1,0 +1,11 @@
+.rodape {
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: var(--montserrat);
+    width: 100%;
+    height: 1rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    padding-top: 3rem;
+    background-color: var(--texto-destaque);
+}

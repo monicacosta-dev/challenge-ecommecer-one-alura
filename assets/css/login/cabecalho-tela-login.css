@@ -1,0 +1,113 @@
+.cabecalho {
+    background: var(--texto-destaque);
+}
+
+.menu__cabecalho {
+    background-color: var(--texto-destaque);
+    display: flex;
+}
+
+.menu__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12rem;
+    width: 40rem;
+}
+
+.logo__img {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img img {
+    width: 3rem;
+    height: 2rem;
+}
+
+.logo__img p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: var(--opensarce);
+}
+
+.logo__azul {
+    margin-left: 0.7rem;
+    color: var(--azul-destaque);
+}
+
+.busca::placeholder {
+    color: var(--placeholder);
+    font-weight: 200;
+    font-family: var(--opensarce);
+}
+
+.menu__logo input {
+    margin-left: 10%;
+    width: 23rem;
+    height: 3rem;
+    text-align: left;
+    border-radius: 2rem;
+    padding: 1% 3%;
+    outline: none;
+    border: none;
+    background-color: var(--input-bg);
+    background-image: url('../assets/img/banner-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu__login {
+    display: flex;
+    width: 38rem;
+    justify-content: end;
+}
+
+.menu__lupa_reponsivo {
+    display: none;
+}
+
+#btnLogin {
+    width: 9rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    background: none;
+    border: 1px solid var(--azul-destaque);
+    color: var(--azul-destaque);
+    text-transform: uppercase;
+}
+
+#btnLogin:hover {
+    background: var(--azul-destaque);
+    font-weight: 300;
+    color: var(--texto-destaque);
+}
+
+
+/*reponsividade*/
+
+@media screen and (min-width: 0) {
+    .menu__cabecalho {
+        padding: 1rem 1rem;
+    }
+    .menu__logo {
+        margin-left: 1rem;
+        width: 13rem;
+    }
+    .menu__logo input {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu__logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 12rem;
+        width: 35rem;
+    }
+    .menu__logo input {
+        display: block;
+    }
+}

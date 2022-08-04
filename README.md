@@ -20,6 +20,6 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 
 ### <h3> Trabalho Realizado ate o momento conforme descrito abaixo pela ferramenta Trello:</h3>
 
-![Trello com os passos desafio.](https://github.com/monicacosta-dev/challenge-ecommecer-one-alura/blob/main/trello-2807.PNG)
+![Trello com os passos desafio.](https://github.com/monicacosta-dev/challenge-ecommecer-one-alura/blob/main/trello-tela.png)
 
 

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> /
+    <meta name="viewport" content="width=device-width">
+
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale=1.0, user-scalable=no" > bloqueia o zoo do celular-->
     <title>E-commecer| AluraGeek</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@100;300;400&display=swap" rel="stylesheet">
     <link href="./assets/css/normalize.css" rel="stylesheet">
@@ -16,6 +18,7 @@
     <link href="./assets/css/rodape.css" rel="stylesheet">
     <link href="./assets/css/cabecalho.css" rel="stylesheet">
     <link href="./assets/css/contato.css" rel="stylesheet">
+
 
 
 </head>
@@ -31,7 +34,7 @@
                 <input type="text" class="busca" id="btnBusca" placeholder="O que deseja encontrar?" />
             </div>
             <div class="menu__login">
-                <a href="login.html"><button type=submit id="btnLogin" alt="Fazer Login ">Login</button></a>
+                <a href="telas/login.html"><button type=submit id="btnLogin" alt="Fazer Login ">Login</button></a>
                 <input class="menu__lupa_reponsivo">
             </div>
 
@@ -44,12 +47,12 @@
                 <div class="banner__informacao">
                     <h1>Dezembro Promocional</h1>
                     <h4>Produtos selecionados com 33% de desconto</h4>
-                    <button type=submit id="btnBanner" alt="Ver consoles existentes! ">Ver Consoles</button>
+                    <a href="#console"><button type=submit id="btnBanner" alt="Ver consoles existentes! ">Ver Consoles</button></a>
                 </div>
             </div>
         </section>
         <section class="container__produtos_geral">
-            <div class="produtos__titulo ">
+            <div class="produtos__titulo container ">
                 <div class="titulo ">
                     <p>Star Wars</p>
                 </div>
@@ -58,72 +61,71 @@
                 </div>
             </div>
 
-            <section class="sessao-produtos ">
+            <section class="sessao-produtos container">
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/01.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
 
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/02.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
-
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/03.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/04.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/05.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/06.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
             </section>
             <div class="produtos__titulo ">
-                <div class="titulo ">
+                <div class="titulo " id="console">
                     <p>Console</p>
                 </div>
                 <div class="produto__mais ">
@@ -132,62 +134,62 @@
             </div>
             <section class="sessao-produtos ">
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/07.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/08.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/09.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/10.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/11.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/12.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
@@ -202,62 +204,62 @@
             </div>
             <sectio class="sessao-produtos">
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/13.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/14.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/15.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/16.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/17.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
                 <div class="produto__mostra ">
-                    <div class="produto__especificos">
+                    <div class="produto__card">
                         <img src="./assets/img/18.png ">
                         <div class="populares__card___cabecalho ">
                             <h5 class="populares__card___titulo ">Produto XYZ</h5>
-                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
-                            <button type=submit id="btnConsole" alt="Ver consoles existentes! ">Ver Console</button>
+                            <p class="populares__card___titulo ">R$ 60,00</p>
+                            <a href="telas/produto-mostra.html" class="btnCards" id="btnConsole">Ver Console</a>
                         </div>
                     </div>
                 </div>
@@ -275,15 +277,16 @@
                 <a href="#">Quero ser Franqueao</a>
                 <a href="#">Anuncie aqui</a>
             </div>
-            <div class="contato__form">
+            <form method="post" action="" class="contato__form">
                 <p>Fale conosco</p>
                 <div class="form">
-                    <input type="text" name="Nome" id="nome" class="form__input" required>
-                    <label for="Nome" class="form__nome">Nome</label>
+                    <input type="text" name="normalize" id="form__nome" class="form__input" minlength="3" maxlength="40" required>
+                    <label for="form__nome" class="form__nome">Nome</label>
                 </div>
-                <textarea name="mensagem" id="msg" cols="5" rows="5" placeholder="Escreva sua mensagem!"></textarea>
+
+                <textarea name="mensagem" id="msg" cols="5" rows="5" placeholder="Escreva sua mensagem!" maxlength="40"></textarea>
                 <button class="btnEnviar">Enviar mensagem</button>
-            </div>
+            </form>
         </section>
 
     </main>
@@ -291,7 +294,8 @@
         <p>Desenvolvido por Mônica Costa</p>
         <p>&copy;2022</p>
     </footer>
-    <script src="./assets/js/fontawesome.all.min.js "></script>
+
 </body>
+<script type="module" src="/assets/controller/produtos-controller.js"></script>
 
 </html>

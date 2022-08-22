@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commecer| AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="../assets/css/normalize.css" rel="stylesheet">
+    <link href="../assets/css/reset.css" rel="stylesheet">
+    <link href="../assets/css/base.css" rel="stylesheet">
+    <link href="../assets/css/banner.css" rel="stylesheet">
+    <link href="../assets/css/rodape.css" rel="stylesheet">
+    <link href="../assets/css/cabecalho.css" rel="stylesheet">
+    <link href="../assets/css/contato.css" rel="stylesheet">
+    <link href="../assets/css/produto/botaoAdicionar.css" rel="stylesheet">
+    <link href="../assets/css/produto/cadastrar-produtos.css" rel="stylesheet">
+    <link href="../assets/css/produto/cadastrar-produtos.css" rel="stylesheet">
+    <link href="../assets/css/produto/produto-adicionar.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="menu__cabecalho">
+            <div class="menu__logo">
+                <div class="logo__img "><img src="../assets/img/controleremoto.png" alt="Controle Remoto">
+                    <p class="logo__azul">Alura</p>
+                    <p class="logo__preto">Geek</p>
+                </div>
+                <input type="text" class="busca" id="btnBusca" placeholder="O que deseja encontrar?" />
+            </div>
+            <div class="menu__login">
+                <a href="/telas/adicionar-produtos.html"><button type=submit id="btnLogin" alt="cadastrar">PRODUTOS</button></a>
+                <input class="menu__lupa_reponsivo">
+            </div>
+
+        </nav>
+    </header>
+    <main class="produto__container">
+        <!--sessão do banner-->
+
+        <section class="adicionar__produto container">
+            <h1 class=" adicionar__produtos___titulo ">Adicionar novo produto </h1>
+            <form class="form__cadastro" id="form__cadastro " data-form>
+                <input class="produto__adicionado__input__image " type="text" placeholder=" Imagem do produto " required data-form-img/>
+                <input class="produto__adicionado__input__nome " type="text " placeholder="Nome do produto " required data-form-nome/>
+                <input class="produto__adicionado__input__preco " type="text " placeholder="Preço do produto " required required data-form-preco/> !
+                <textarea class="produto__adicionado__textarea__descricao " cols="10 " rows="3 " type="text " placeholder="Descrição do produto " data-form-desc></textarea>
+                <a href="#"><button type="submit" class=" produto__adicionar__btn" id="btnProduto">Adicionar Produto</button></a>
+            </form>
+        </section>
+        <section class="contato container">
+            <div class="contato__logo"><img src="../assets/img/controleremoto.png" alt="Logo da Alura Geek" />
+                <p>Alura</p>
+                <p id="destaque">Geek</p>
+            </div>
+            <div class="contato__uteis">
+                <a href="#">Quem somos nós</a>
+                <a href="#">Politica de Privacidade</a>
+                <a href="#">Programa de Fidelidade</a>
+                <a href="#">Nossas lojas</a>
+                <a href="#">Quero ser Franqueao</a>
+                <a href="#">Anuncie aqui</a>
+            </div>
+            <div class="contato__form">
+                <p>Fale conosco</p>
+                <div class="form">
+                    <input type="text" name="Nome" id="nome" class="form__input" required>
+                    <label for="Nome" class="form__nome">Nome</label>
+                </div>
+                <textarea name="mensagem" id="msg" cols="5" rows="5" placeholder="Escreva sua mensagem!"></textarea>
+                <button class="btnEnviar">Enviar mensagem</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="rodape" id="rodape">
+        <p>Desenvolvido por Mônica Costa</p>
+        <p>&copy;2022</p>
+    </footer>
+
+</body>
+<script type="module" src="/assets/controller/produtos-controller.js"></script>
+
+
+</html>

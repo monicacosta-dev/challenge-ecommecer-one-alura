@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commecer| AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="../assets/css/normalize.css" rel="stylesheet">
+    <link href="../assets/css/reset.css" rel="stylesheet">
+    <link href="../assets/css/base.css" rel="stylesheet">
+    <link href="../assets/css/banner.css" rel="stylesheet">
+
+    <link href="../assets/css/rodape.css" rel="stylesheet">
+
+    <link href="../assets/css/produto/rodape-produtos.css" rel="stylesheet">
+    <link href="../assets/css/produto/botao-produto.css" rel="stylesheet">
+    <link href="../assets/css/cabecalho.css" rel="stylesheet">
+    <link href="../assets/css/contato.css" rel="stylesheet">
+    <link href="../assets/css/produto/cadastrar-produtos.css" rel="stylesheet">
+    <link href="../assets/css/produto/adicionar-produto.css" rel="stylesheet">
+
+
+    <link href="../assets/css/produto/botaoSimilares.css" rel="stylesheet">
+    <link href="/assets/css/produto/produto-mostra.css" rel="stylesheet">
+
+    <link href="/telas/produto-similares.html" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="menu__cabecalho">
+            <div class="menu__logo">
+                <div class="logo__img"><img src="../assets/img/controleremoto.png" alt="Controle Remoto">
+                    <p class="logo__azul">Alura</p>
+                    <p class="logo__preto">Geek</p>
+                </div>
+                <input type="text" class="busca" id="btnBusca" placeholder="O que deseja encontrar?" />
+            </div>
+            <div class="menu__login">
+                <a href="/index.html"><button type=submit id="btnLogin" alt="Fazer Login ">HOME</button></a>
+                <input class="menu__lupa_reponsivo">
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="produtos__container">
+            <div class="produtos__imagem">
+                <img src="../assets/img/01.png ">
+            </div>
+            <div class="produto__card__informacao ">
+                <h3 class="populares__card___titulo ">Produto XYZ</h3>
+                <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime
+                    de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica
+                </p>
+            </div>
+        </section>
+        <div class="titulo__produtos_similares">
+            <h1>Produtos Similares</h1>
+        </div>
+        <!--Adicionar produtos usando METODO GET-->
+        <section class="sessao__produtos__container" data-produto>
+
+            <!--<div class="produto__mostra ">
+                    <div class="produto__especificos ">
+                        <img src="../assets/img/07.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos ">
+                        <img src="../assets/img/02.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos ">
+                        <img src="../assets/img/03.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos ">
+                        <img src="../assets/img/04.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos ">
+                        <img src="../assets/img/05.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto__mostra ">
+                    <div class="produto__especificos ">
+                        <img src="../assets/img/06.png ">
+                        <div class="populares__card___cabecalho ">
+                            <h5 class="populares__card___titulo ">Produto XYZ</h5>
+                            <h5 class="populares__card___titulo ">R$ 60,00</h5>
+                            <button type=submit id="btnConsole " alt="Ver consoles existentes! ">Ver Console</button>
+                        </div>
+                    </div>
+                </div>-->
+        </section>
+        <section class="contato container ">
+            <div class="contato__logo "><img src="../assets/img/controleremoto.png " alt="Logo da Alura Geek " />
+                <p>Alura</p>
+                <p id="destaque ">Geek</p>
+            </div>
+            <div class="contato__uteis ">
+                <a href="# ">Quem somos nós</a>
+                <a href="# ">Politica de Privacidade</a>
+                <a href="# ">Programa de Fidelidade</a>
+                <a href="# ">Nossas lojas</a>
+                <a href="# ">Quero ser Franqueao</a>
+                <a href="# ">Anuncie aqui</a>
+            </div>
+            <div class="contato__form ">
+                <p>Fale conosco</p>
+                <div class="form ">
+                    <input type="text " name="Nome " id="nome " class="form__input " required>
+                    <label for="Nome " class="form__nome ">Nome</label>
+                </div>
+                <textarea name="mensagem " id="msg " cols="5 " rows="5 " placeholder="Escreva sua mensagem! "></textarea>
+                <button class="btnEnviar ">Enviar mensagem</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="rodape " id="rodape ">
+        <p>Desenvolvido por Mônica Costa</p>
+        <p>&copy;2022</p>
+    </footer>
+
+</body>
+<script type="module" src="/assets/controller/produtos-controller.js"></script>
+
+</html>

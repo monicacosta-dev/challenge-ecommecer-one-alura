@@ -1,0 +1,54 @@
+{
+
+    "produtos": [{
+            "image": "../assets/img/01.png",
+            "nome": "Produto XYZ",
+            "preco": "98,00",
+            "id": " 1 ",
+            "descricao": " Lorem ipsum dolor sit amet,consectetur adipiscing elit."
+        },
+        {
+            "image": "../assets/img/02.png",
+            "nome": "Produto XYZ",
+            "preco": "98,00",
+            "id": " 2 ",
+            "descricao": " Lorem ipsum dolor sit amet,consectetur adipiscing elit."
+
+        },
+        {
+            "image": "../assets/img/03.png",
+            "nome": "Produto XYZ",
+            "preco": "98,00",
+            "id": "3",
+            "descricao": " Lorem ipsum dolor sit amet,consectetur adipiscing elit."
+        },
+        {
+            "image": "../assets/img/04.png",
+            "nome": "Produto XYZ",
+            "preco": "98,00",
+            "id": "4",
+            "descricao": " Lorem ipsum dolor sit amet,consectetur adipiscing elit."
+
+        },
+        {
+            "image": "../assets/img/05.png",
+            "nome": "Produto XYZ",
+            "preco": "98,00",
+            "id": "5",
+            "descricao": " Lorem ipsum dolor sit amet,consectetur adipiscing elit."
+
+        },
+        {
+            "image": "../assets/img/06.png",
+            "nome": "Produto XYZ",
+            "preco": "98,00",
+            "id": "6",
+            "descricao": " Lorem ipsum dolor sit amet,consectetur adipiscing elit."
+
+        }
+
+
+    ]
+
+
+}

@@ -1,0 +1,15 @@
+  #btnBanner {
+      background-color: var(--azul-destaque);
+      border: none;
+      color: var(--azul-destaque);
+      border-radius: 2px;
+      color: var(--texto-destaque);
+      width: 8rem;
+      height: 2.4rem;
+  }
+  
+  #btnBanner:hover {
+      color: var(--azul-destaque);
+      background-color: var(--texto-destaque);
+      cursor: pointer;
+  }

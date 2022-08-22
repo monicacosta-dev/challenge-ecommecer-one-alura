@@ -1,0 +1,49 @@
+.formProduto__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imagem__input {
+    display: none;
+}
+
+.form__img_input {
+    display: flex;
+}
+
+.form__img_file {
+    border: 2px dashed #e4e4e4;
+    background: coral;
+    height: 10rem;
+    width: 21rem;
+}
+
+.form__img_file {
+    display: flex;
+}
+
+.form_botao_enviar {
+    background-color: var(--azul-destaque);
+    border: none;
+    border-radius: 2px;
+    color: var(--azul-destaque);
+    border-radius: 2px;
+    color: var(--texto-destaque);
+    width: 25%;
+    height: 2.8rem;
+    align-items: center;
+    margin-left: 30rem;
+}
+
+.form_botao_enviars:hover {
+    color: var(--azul-destaque);
+    background-color: var(--texto-destaque);
+    cursor: pointer;
+}
+
+.form_botao_enviar p {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+}

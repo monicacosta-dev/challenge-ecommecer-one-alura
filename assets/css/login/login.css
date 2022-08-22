@@ -45,28 +45,29 @@ h1 {
 }
 
 .label_float input:focus {
-    border-bottom: 1px solid #c0dcdf
+    border-bottom: 2px solid var(--azul-destaque)
 }
 
 .label_float label {
-    color: #000;
+    font-size: 9px;
+    color: var(--preto-destaque);
     pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 13px;
-    transition: all .3s ease-out;
+    font-size: 18px;
+    margin-top: 6px;
+    transition: all .5s;
 }
 
 .label_float input:focus+label {
-    font-size: 14px;
-    margin-top: 0;
-    color: #2a7ae4;
+    font-size: 8px;
+    color: var(--azul-destaque);
 }
 
-#botao__logo {
-    background-color: #2a7ae4;
-    color: #fff;
+.botao__login #botao__logo {
+    background: var(--azul-destaque);
+    color: var( --texto-destaque);
     border-radius: 6px;
     width: 280px;
     border: none;

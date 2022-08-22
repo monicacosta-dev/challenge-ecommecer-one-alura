@@ -1,0 +1,111 @@
+.produtos__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.produtos__imagem img {
+    width: 38rem;
+    height: 24rem;
+    margin: 3rem;
+    padding-left: 3rem;
+}
+
+.produto__card__informacao h3 {
+    font-size: 4rem;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    color: #2c2c2c;
+    line-height: 2.3rem;
+    min-width: 10%;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 6rem;
+}
+
+.produto__card__informacao h5 {
+    font-size: 1.3rem;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    color: #2c2c2c;
+    margin-bottom: 4rem;
+    margin-right: 6rem;
+}
+
+.produto__card__informacao p {
+    line-height: 1.5rem;
+    text-align: left;
+    padding-right: 3rem;
+    padding-bottom: 5 rem;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+.sessao-produtos {
+    display: flex;
+    width: 71rem;
+    height: 19.2rem;
+    flex-wrap: wrap;
+}
+
+.sessao-produtos {
+    display: flex;
+    width: 71rem;
+    height: 19.2rem;
+    flex-wrap: wrap;
+}
+
+.produto__card {
+    padding-bottom: 6rem;
+}
+
+.populares__card___cabecalho .produto__card h3 {
+    font-size: 1.5rem;
+}
+
+.titulo {
+    font-family: var(--opensource);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.produto__card p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.populares__card___cabecalho a {
+    background: var(--texto-destaque);
+    border: none;
+    flex-direction: column;
+    color: var(--azul-destaque);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.populares__card___titulo {
+    font-size: 1.1rem;
+    font-family: var(--opensource);
+    font-weight: 100;
+    padding-top: 0.5rem;
+    margin-left: 0.3rem;
+}
+
+.produto__especificos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.produto__especificos button {
+    background: var(--texto-destaque);
+    border: none;
+    flex-direction: column;
+    color: var(--azul-destaque);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}

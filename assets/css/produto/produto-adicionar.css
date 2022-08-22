@@ -1,0 +1,171 @@
+/*sessão trabalhando inserção de imagens */
+
+.formProduto__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f5f5f5;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: var(--opensarce);
+    font-weight: bold;
+    padding: 3rem 3rem;
+    margin-left: 15.5rem;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: var(--opensarce);
+    font-weight: bold;
+    padding: 3rem 3rem;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.form__img_input {
+    display: flex;
+    margin-left: 18rem;
+}
+
+.imagem--imag {
+    font-size: 1rem;
+    font-family: var(--opensarce);
+    cursor: pointer;
+}
+
+#imagem--botao,
+#imagem--imag {
+    display: none;
+}
+
+.form__file {
+    display: flex;
+    justify-content: center;
+    aspect-ratio: 16/9;
+    align-items: center;
+    background: var(--texto-destaque);
+    height: 12rem;
+    width: 21rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: var(--opensarce);
+    font-weight: bolder;
+    border: 2px dashed #aaa;
+    color: #aaa;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form__file:hover {
+    color: var(--azul-destaque)
+}
+
+
+/*Travalhando sessão dos inputs*/
+
+.form__produtos__dados {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 31.25rem;
+}
+
+.form__label__input input {
+    width: 41rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-right: 18.6rem;
+    margin-left: 18.6rem;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid var(--azul-destaque);
+    transition: 0.3s;
+}
+
+.form__label__input input:hover {
+    border-bottom: 3px solid var(--azul-destaque);
+}
+
+.form__label__input label {
+    font-size: 1.1rem;
+    position: relative;
+    font-weight: bolder;
+    margin-left: 17.6rem;
+    bottom: 2.8rem;
+    left: 0.57rem;
+    color: var(--placeholder);
+    padding: 0.5% 2.7%;
+}
+
+.form__descricao label {
+    font-size: 1.1rem;
+    position: relative;
+    font-weight: bolder;
+    margin-left: 17.6rem;
+    bottom: 12.8rem;
+    left: 0.57rem;
+    color: var(--placeholder);
+    padding: 0.5% 2.7%;
+}
+
+.form__descricao label:hover {
+    color: var (--preto-destaque);
+}
+
+.form__descricao textarea {
+    resize: none;
+    width: 43rem;
+    margin-left: 18.133rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.form__botoa {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 2px solid var(--azul-destaque);
+    border-radius: 5px;
+    color: var(--azul-destaque);
+    padding: 1.9rem 0 22px;
+    margin-right: 3rem;
+    margin-top: 5rem;
+    height: 2rem;
+    width: 14rem;
+    transition: 0.3s;
+}
+
+.form__botoa:hover {
+    background: var(--azul-destaque);
+    color: var(--texto-destaque);
+}
+
+.form_botao_enviar {
+    background-color: var(--azul-destaque);
+    border: none;
+    border-radius: 2px;
+    color: var(--azul-destaque);
+    border-radius: 2px;
+    color: var(--texto-destaque);
+    width: 50%;
+    height: 2.8rem;
+    align-items: center;
+    margin-left: 30rem;
+}
+
+.form_botao_enviars:hover {
+    color: var(--azul-destaque);
+    background-color: var(--texto-destaque);
+    cursor: pointer;
+}
+
+.form_botao_enviar p {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+}

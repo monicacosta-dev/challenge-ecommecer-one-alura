@@ -1,0 +1,12 @@
+.sessao__produtos__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.titulo__produtos_similares {
+    padding: 2rem;
+    font-size: bold;
+    font-family: var(--opensource);
+}

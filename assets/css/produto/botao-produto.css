@@ -1,0 +1,17 @@
+ #btnLogin {
+     width: 9rem;
+     height: 2.5rem;
+     margin-top: 1rem;
+     margin-right: 4rem;
+     background: none;
+     border-radius: 5px;
+     border: 1px solid var(--azul-destaque);
+     color: var(--azul-destaque);
+     text-transform: uppercase;
+ }
+ 
+ #btnLogin:hover {
+     background: var(--azul-destaque);
+     font-weight: bold;
+     color: var(--texto-destaque);
+ }

@@ -2,6 +2,14 @@
             background: var(--texto-destaque);
         }
         
+        .produtos__titulo {
+            display: flex;
+        }
+        
+        .produto__mais {
+            align-content: flex-end;
+        }
+        
         .menu__cabecalho {
             background-color: var(--texto-destaque);
             display: flex;
@@ -45,6 +53,7 @@
             border-radius: 2rem;
             padding: 1% 3%;
             border: none;
+            outline: none;
             background-color: var(--input-bg);
             background-image: url(../img/lupa.png);
             background-repeat: no-repeat;
@@ -54,7 +63,7 @@
         
         .busca::placeholder {
             color: var(--placeholder);
-            font-weight: 200;
+            font-weight: bolder;
             font-family: var(--opensarce);
         }
         
@@ -72,7 +81,9 @@
             width: 9rem;
             height: 2.5rem;
             margin-top: 1rem;
+            margin-right: 4rem;
             background: none;
+            border-radius: 5px;
             border: 1px solid var(--azul-destaque);
             color: var(--azul-destaque);
             text-transform: uppercase;
@@ -80,7 +91,7 @@
         
         #btnLogin:hover {
             background: var(--azul-destaque);
-            font-weight: 300;
+            font-weight: bold;
             color: var(--texto-destaque);
         }
         /*reponsividade*/

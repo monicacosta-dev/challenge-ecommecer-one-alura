@@ -12,17 +12,31 @@
             justify-content: space-between;
         }
         
-        .produtos__titulo .titulo {
+        .produtos__titulo {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .titulo,
+        .produto__mais p {
             font-family: var(--opensource);
-            font-size: 1.8rem;
+            font-size: 1.7rem;
             font-weight: bold;
         }
-        /*separar  */
         
-        .produto__mostra {
-            display: flex;
+        .produto__mais p {
+            color: var(--azul-destaque);
+            font-size: 1.5rem;
+        }
+        
+        .populares__card___cabecalho .btnCards {
+            background: var(--texto-destaque);
+            border: none;
             flex-direction: column;
-            justify-content: space-around;
+            color: var(--azul-destaque);
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding-top: 1rem;
         }
         
         .populares__card___titulo {

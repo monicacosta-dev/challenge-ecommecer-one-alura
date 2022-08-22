@@ -87,6 +87,13 @@
         left: 0.57rem;
         color: #cac8cb;
         padding: 0.5% 2.7%;
+        transition: all .5s;
+    }
+    
+    .form input:focus+label {
+        font-size: 14px;
+        margin-top: 3px;
+        color: var(--azul-destaque)
     }
     
     .contato__form textarea {
